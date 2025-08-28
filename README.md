@@ -4,14 +4,14 @@ This is a self-contained demo package for PlankJS line overlap detection capabil
 
 ## Contents
 
--   `line-overlap-demo.html` - Interactive HTML demo with 4 examples
--   `lib/` - Required libraries
-    -   `planck.min.js` - PlankJS physics engine v1.4.2
--   `js/` - Line overlap detection implementation
-    -   `lineoverlap.js` - Core line overlap detection system
-    -   `lineoverlap-examples.js` - Usage examples and utilities
--   `docs/` - Documentation
-    -   `LINE_OVERLAP_DETECTION.md` - Comprehensive API documentation
+- `line-overlap-demo.html` - Interactive HTML demo with 4 examples
+- `lib/` - Required libraries
+  - `planck.min.js` - PlankJS physics engine v1.4.2
+- `js/` - Line overlap detection implementation
+  - `lineoverlap.js` - Core line overlap detection system
+  - `lineoverlap-examples.js` - Usage examples and utilities
+- `docs/` - Documentation
+  - `LINE_OVERLAP_DETECTION.md` - Comprehensive API documentation
 
 ## Quick Start
 
@@ -43,18 +43,18 @@ Interactive laser beam with collision detection and damage system.## Using in Yo
 3. Create a detector instance: `const detector = new LineOverlapDetector(world);`
 4. Check for overlaps: `const overlaps = detector.checkLineOverlap(startPoint, endPoint);`
 
-See `docs/LINE_OVERLAP_DETECTION.md` for complete API documentation and examples.
+See [docs/LINE_OVERLAP_DETECTION.md](docs/LINE_OVERLAP_DETECTION.md) for complete API documentation and examples.
 
 ## Browser Compatibility
 
--   Modern browsers with ES6+ support
--   HTML5 Canvas support required for demos
--   No additional dependencies beyond PlankJS
+- Modern browsers with ES6+ support
+- HTML5 Canvas support required for demos
+- No additional dependencies beyond PlankJS
 
 ## Features
 
--   Efficient raycasting-based detection
--   Support for all PlankJS shape types (circles, boxes, polygons)
--   Customizable filtering options
--   Coordinate conversion utilities
--   Multiple query strategies (raycast, AABB+raycast, boolean checks)
+- Efficient raycasting-based detection
+- Support for all PlankJS shape types (circles, boxes, polygons)
+- Customizable filtering options
+- Coordinate conversion utilities
+- Multiple query strategies (raycast, AABB+raycast, boolean checks)
